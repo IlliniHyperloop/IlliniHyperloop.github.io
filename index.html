@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Illini Hyperloop</title>
+		<meta name="UIUC" content="Illini Hyperloop">
+		<meta name="Shank" content="Illini Hyperloop">
+		<link rel="stylesheet" href="styles/styles.css">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Play:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="styles/sweetalert.css">
+		<script src="scripts/sweetalert.min.js"></script>
+
+		<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+	</head>
+
+	<body>
+		<script>
+			function workInProg() {
+				swal({
+					title: "WIP",
+					text: "Work In Progress!",
+					type: "info",
+					allowOutsideClick: true,
+					confirmButtonText: "OK"});
+			}
+		</script>
+		<div id="navBar">
+			<a id="test" onclick="workInProg()">HOME</a>
+			<a href="http://www.spacex.com/hyperloop" target="_blank">SPACEX</a>
+			<a href="docs/rules.pdf" target="_blank">RULES</a>
+			<a href="https://www.facebook.com/groups/illinihyperloop/" target="_blank">FACEBOOK</a>
+		</div>
+
+		<div id="headerInfo">
+			<img src="img/logo.png" alt="" width="900px">
+			<h1>Illini Hyperloop</h1>
+			<h2>High-speed transportation system</h2>
+		</div>
+
+	</body>
+</html>
