@@ -50,7 +50,7 @@ body {
 	display: block;
 	margin: 0 auto;
 	margin-bottom: -50px;
-	margin-top: 75px;
+	margin-top: 110px;
 }
 
 .contact {
@@ -58,4 +58,30 @@ body {
 	text-align: center;
 	margin-bottom: 50px;
 	margin-top: 100px;
+}
+
+footer {
+	margin: 0 auto;
+	clear: both;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+
+footer ul {
+	padding: 0;
+	text-align: center;
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	list-style-type: none;
+}
+
+footer ul li {
+	display:inline-block;
+	font-size: 4.0em;
+}
+
+footer ul li .fa-facebook-square {
+	color: #3b5998;
 }
