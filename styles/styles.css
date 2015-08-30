@@ -1,5 +1,7 @@
 body {
-	background-color: #f9fafa;
+	/*background-color: #f9fafa;*/
+	background-color: #dee9f1;
+	background-color: #E5FFFF ;
 	padding: 0;
 	margin: 0;
 }
@@ -30,17 +32,28 @@ body {
 	color: orange;
 }
 
+
 /* ============================== Navigation Bar ============================== */
 
 #headerInfo h1 {
 	margin-top: 120px;
-	font-size: 2.5em;
+	font-size: 3.1em;
 	font-family: 'PT Sans Caption', sans-serif;
 	text-align: center;
 }
 
+.desc {
+	font-family: 'PT Sans Caption', sans-serif;
+	padding-left: 170px;
+	padding-right: 170px;
+	font-size: 1.4em;
+	line-height: 2.4;
+	text-indent: 60px;
+	/*text-indent: 75px;*/
+}
+
 #headerInfo h2 {
-	font-size: 1.3em;
+	font-size: 1.8em;
 	font-family: 'PT Sans Caption', sans-serif;
 	text-align: center;
 	margin-bottom: 50px;
@@ -79,7 +92,7 @@ footer ul {
 }
 
 footer ul li {
-	display:inline-block;
+	display: inline-block;
 	font-size: 4.0em;
 }
 
