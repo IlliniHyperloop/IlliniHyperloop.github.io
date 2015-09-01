@@ -44,12 +44,12 @@ body {
 
 .desc {
 	font-family: 'PT Sans Caption', sans-serif;
-	padding-left: 170px;
-	padding-right: 170px;
+	/*padding-left: 170px;
+	padding-right: 170px;*/
 	font-size: 1.4em;
 	line-height: 2.4;
+	float: left;
 	text-indent: 60px;
-	/*text-indent: 75px;*/
 }
 
 #headerInfo h2 {
