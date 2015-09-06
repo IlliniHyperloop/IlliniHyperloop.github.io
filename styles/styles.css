@@ -66,11 +66,20 @@ body {
 }
 
 .contact {
-	display: block;
-	text-align: center;
-	margin-bottom: 50px;
-	margin-top: 100px;
-	width: 100%;
+	display: inline-block;
+	float: right;
+	padding-right: 250px;
+	padding-top: 125px;
+	width: auto;
+}
+
+.contactUs {
+	padding-left: 100px;
+	padding-top: 100px;
+	display: inline-block;
+	float: left;
+	font-size: 1.2em;
+	font-family: 'PT Sans Caption', sans-serif;
 }
 
 footer {
@@ -97,12 +106,4 @@ footer ul li {
 
 footer ul li .fa-facebook-square {
 	color: #3b5998;
-}
-
-.contactUs {
-	margin-top: 120px;
-	font-size: 1.2em;
-	font-family: 'PT Sans Caption', sans-serif;
-	text-align: center;
-	margin-bottom: -40px;
 }
