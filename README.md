@@ -1,2 +1,0 @@
-# IlliniHyperloop
-Illini Hyperloop Website
