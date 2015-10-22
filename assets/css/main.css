@@ -2199,11 +2199,6 @@
 
 		/* Basic */
 		
-			#hiddenMobile {
-				visibility: hidden;
-				display: none;	
-			}
-		
 			html, body {
 				overflow-x: hidden;
 			}
