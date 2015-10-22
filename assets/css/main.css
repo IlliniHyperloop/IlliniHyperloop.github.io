@@ -2198,7 +2198,12 @@
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
+		
+			#hiddenMobile {
+				visibility: hidden;
+				display: none;	
+			}
+		
 			html, body {
 				overflow-x: hidden;
 			}
