@@ -1,0 +1,321 @@
+/*
+ * --------------------------------------------------------------------------------------------------
+ * MAIN
+ * TABLE OF CONTENTS
+ * This CSS doc is split into sections
+ *	- VIEWS
+ *	- TINTS
+ *	- NAV
+ *	- JUMBOTRON
+ *	- INTRO
+ *	- MEMBERS
+ *	- TEXT
+ * --------------------------------------------------------------------------------------------------
+ */
+
+body{ 
+		margin:0; 
+		padding:0; 
+}
+
+#site_wrapper{ 
+		width: 100%; 
+		height: 2000px; 
+		background: #e8e8e8;
+		background: #223166; 
+		background: #e8e8e8;
+}
+
+
+
+/*
+ * --------------------------------------------------------------------------------------------------
+ * VIEWS:
+ * Main page is made up of 5 views
+ * top_view
+ * intro_view
+ * center_view
+ * members_view
+ * bottom_view
+ * --------------------------------------------------------------------------------------------------
+ */
+
+.view{
+		width: 100%; 
+		background: #e8e8e8;
+		min-width: 700px; 
+		overflow:hidden;
+}
+
+#top_view{
+		height: 700px; 	
+		background: url(images/6H.jpg) no-repeat; 
+		background-attachment: fixed;
+		background-size: cover; 
+		background-position: center; 
+		display: none;
+}
+
+#intro_view{
+		height: 450px; 	
+}
+
+#center_view{
+		height: 500px; 	
+		background: url(images/members.jpg) no-repeat; 
+		background-size: cover; 
+		background-position: center; 
+}
+
+#members_view{
+		height: 500px; 	
+}
+
+#bottom_view{
+		height: 450px; 	
+		background: url(images/2.jpg) no-repeat; 
+		background-size: cover; 
+		background-position: center; 
+		background-attachment: fixed;
+}
+
+
+
+/*
+ * --------------------------------------------------------------------------------------------------
+ * TINTS
+ * All the view tinting
+ * The tint for the middle picture is less severe. 
+ * --------------------------------------------------------------------------------------------------
+*/
+
+.tint {
+		background: rgba(11, 37, 120, 0.40000);
+		height: 100%
+}
+#center_tint{
+		background: rgba(11, 37, 120, 0.05000);
+}
+
+
+
+/*
+ * --------------------------------------------------------------------------------------------------
+ * NAV
+ * All the styling for the navigation at the top of the page.  
+ * Logo and nav bar are handled seperatly
+ * --------------------------------------------------------------------------------------------------
+*/
+
+#header{
+		height: 200px; 	
+}
+
+#top_header{
+		height: 100%; 	
+		width: 80%; 
+		min-width: 700px; 
+		margin: 0 auto;
+}
+
+#logo{
+		margin-left: 5px; 
+		height: 75px; 
+		width: 200px; 
+		float: left; 
+		background: url(images/logoShort.png) no-repeat;
+		background-position: center; 
+		display: none;
+}
+
+#logo:hover{
+		background: url(images/logoShortO.png) no-repeat;
+		background-position: center; 
+}
+
+#nav_bar{
+		width: 495px; 
+		float: right; 
+}
+
+.nav {
+		float:left; 
+		list-style-type: none;
+		font-family: 'Oswald', sans-serif;
+		font-size: 14px;
+		letter-spacing: 2px;
+		width: 90px; 
+		margin-top: 30px; 
+}
+
+#nav1 { margin-left: 0px; }  
+#nav2 { margin-left: -25px; }  
+#nav3 { margin-left: 0px; }  
+#nav4 { margin-left: 0px; }  
+#nav5 { margin-left: 25px; }  
+
+.nav a{
+    	text-decoration: none;
+		color: white;
+		display: none;
+}
+
+.nav a:hover {
+		color: orange;
+}
+
+
+
+/*
+ * --------------------------------------------------------------------------------------------------
+ * JUMBOTRON
+ * Simply boostrap style Jumbotron  
+ * --------------------------------------------------------------------------------------------------
+*/
+
+#tron {
+		height: 250px; 	
+		background: rgba(180, 180, 180, 0.24902);
+		display: none;
+}
+
+.jumbotext {
+		font-size: 80px;
+		font-family: 'Oswald', sans-serif;
+		color: #f0f0f0;
+		text-shadow: 1px 1px 4px #000000;
+		text-align: center;
+		display: none;
+}
+
+#jumbomain {
+		font-size: 80px;
+}
+
+#jumbosub{
+		font-size: 50px;
+		margin-top: -30px; 
+}
+
+
+
+/*
+ * --------------------------------------------------------------------------------------------------
+ * INTRO
+ * Just the intro split 
+ * --------------------------------------------------------------------------------------------------
+*/
+
+#intro_content{
+		width: 70%; 
+		height: 350px; 	
+		margin: 0 auto;
+		text-align: center;
+}
+
+
+
+/*
+ * --------------------------------------------------------------------------------------------------
+ * MEMBERS
+ * Widget to view members 
+ * --------------------------------------------------------------------------------------------------
+*/
+
+#member_content{
+		width: 70%; 
+		height: 500px; 	
+		margin: 0 auto;
+		min-width: 700px; 
+}
+
+#member_top{
+		height: 20%; 	
+		display: inline-block;
+		text-align: center;
+}
+
+#member_left{
+		height: 70%; 	
+		width: 40%; 
+		min-width: 310px; 
+		text-align: center;
+		float: left; 
+		display: block;
+}
+
+#circular {
+		margin: 0 auto;
+		margin-top: 80px;
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
+		border: 1px; 
+		background: url(images/1.jpg) no-repeat;
+		background-position: center; 
+}
+
+#member_right{
+		height: 70%; 	
+		width: 55%; 
+		float: right; 
+		display: block;
+}
+
+#member_bottom{
+		height: 10%; 	
+		width: 100%; 
+		float: left; 
+		text-align: center;
+}
+
+#fake_buttons{
+		font-size: 70px; 
+		margin-top: -45px;
+		color: gray; 
+}
+
+
+
+/*
+ * --------------------------------------------------------------------------------------------------
+ * TEXT
+ * Stye rules for all the text on the page
+ * --------------------------------------------------------------------------------------------------
+*/
+
+.alltext {
+		font-family: 'Open Sans', sans-serif;
+		color: #404040;
+		display: none;
+}
+
+.title {
+		font-family: 'Oswald', sans-serif;
+		font-size: 45px; 
+		margin-top: 2px;
+}
+
+.sub_title {
+		font-size: 30px; 
+}
+
+.sub2 {
+		font-size: 20px; 
+}
+
+.para {
+		font-size: 18px; 
+		text-align: left; 
+		line-height: 120%;
+}
+
+#intro_text {
+	text-indent: 50px;
+	margin-top: -30px; 
+	line-height: 150%;
+}
+
+
