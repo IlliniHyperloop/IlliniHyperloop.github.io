@@ -1,0 +1,105 @@
+p, span, h1,h2{
+	color: #504040;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+	text-shadow: 1px 1px 4px #000000;
+	color: #f0f0f0;
+	text-align: center;
+}
+
+h2{
+	font-size: 50px;
+	margin-top: -40px;
+}
+
+span {
+	font-size: 16px; 
+	font-weight: 100;
+	color:#b3b3b3; 
+	line-height: 30px;
+}
+
+p.title{
+	font-family: 'Oswald', sans-serif;
+	margin-left: 20%; 
+	font-size: 40px;
+	font-weight: 700;
+}
+
+p.subTitle{
+	font-size: 30px;
+}
+
+p.subPara{
+	font-size: 16px;
+	margin-top: -20px;
+}
+
+p.white{
+	color: #f0f0f0;
+}
+
+p.para{
+	margin-left: 20%; 
+	margin-right: 20%; 
+	line-height: 250%;
+	font-weight: 120;
+	font-size: 16px;
+	padding-bottom: 25px;
+}
+
+p.paralast{
+	padding-bottom: 75px;
+}
+
+p.formSuccess{
+	text-align: center; 
+	margin-left: 0%; 
+	display: none;
+}
+
+p.subteam{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+form{
+	width: 100%;
+}
+
+.in {
+	margin: 0 auto;
+	height: 35px; 
+	width: 40%; 
+	display: block;
+	font-size: 15px; 
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+textarea.in {
+	height: 100px; 
+}
+
+input.button {
+	margin-left: 60%;
+	height: 25px; 
+	width: 10%; 
+	background-color: #3366cc;
+	border-radius:5px;
+	border: 0px;
+	color: white; 
+	font-size: 12px; 
+}
+
+p.subteam {
+	text-align: center;
+}
+
+

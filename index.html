@@ -1,98 +1,165 @@
 <!DOCTYPE html>
 
 <html>
-		<head>
-				<title>Illini Hyperloop</title>
-				<link rel="shortcut icon" type="image/x-icon" href="images/f.ico">
-				<link rel="stylesheet" type="text/css" href="main.css">
-				<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-				<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-				<script language="javascript" type="text/javascript" src="page_logic.js"></script>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-				<script src="app.js"></script>
-		</head>
+	<head>
+		<title>Illini Hyperloop</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/f.ico">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="text.css">
+		<link rel="stylesheet" type="text/css" href="mobile.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="app.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+	</head>
 
-		<body>
-				<div id = "site_wrapper"> 
-						<div id="top_view" class="view">
-								<div id = "top_tint" class = "tint">
-										<div id = "header">
-												<div id="top_header">
-														<div id="logo"></div> 
-
-														<div id="nav_bar">
-																<li id = "nav1" class = "nav"><a href="" title="">Home</a></li>
-																<li id = "nav2" class = "nav"><a href="" title="">About Us</a></li>
-																<li id = "nav3" class = "nav"><a href="" title="">The Team</a></li>
-																<li id = "nav4" class = "nav"><a href="" title="">Competition</a></li>
-																<li id = "nav5" class = "nav"><a href="" title="">Contact</a></li>
-														</div> 
-												</div> 
-										</div> 
-										<div id = "tron">
-												<h1 id = "jumbomain" class = "jumbotext">Why Hyperloop?</h1>	
-												<h2 id = "jumbosub"  class = "jumbotext">Because Roads Aren't Good Enough</h2>	
-										</div> 
-								</div> 
-						</div> 
-
-						<div id="intro_view" class="view">
-								<div id = "intro_content">
-										<p id = "intro_title" class=" alltext title">Who We Are</p>	
-										<p id = "intro_text" class= " alltext para">
-Illini Hyperloop is a group of students at the University of Illinois at Urbana-Champaign who are 
-participating in the SpaceX Hyperloop Pod Competition. We are comprised of a Senior Design Team and 
-a Registered Student Organization. The Senior Design Team is a group of seniors that have chosen the 
-Hyperloop concept as their Senior Design Project. We have seniors from Aerospace Engineering, 
-Mechanical Engineering, Engineering Mechanics, Computer Engineering, Electrical Engineering, and 
-Computer Science working on the project. The Registered Student Organization (RSO) is a student-run 
-club that was started over the summer in order to bring together all the interest at UIUC. It is an all-
-inclusive club, open to the entire student body and not restricted to any discipline. The club seeks talent 
-throughout the entire school to create the most well rounded team in this competition. Together we make 
-a strong team, representative of the countless brilliant scholars at the University of Illinois.
-										</p>	
-								</div>
-						</div>
-
-						<div id = "center_view" class="view">
-								<div id = "center_tint" class = "tint">
-								</div>
-						</div>
-
-						<div id = "members_view" class="view">
-								<div id = "member_content">
-										<div id = "member_top">
-												<p id = "member_title" class="alltext title">Our Team</p>	
-										</div> 
-										<div id = "member_left">
-												<div id="circular"></div>
-										</div> 
-										<div id = "member_right">
-												<p id = "member_name" class="alltext sub_title sub1">Mizan Rahman</p>	
-												<p id = "member_pos" class="alltext sub_title sub2">Founder and Co-President</p>	
-												<p id = "bio" class="para alltext">
-												Mizan is a third year Aerospace Engineering student at the University of Illinois at Urbana-Champaign. As an aspiring engineer, he has come a 
-
-												long way from his home in Fremont, California to one of the greatest engineering schools in the world. He began building robots at the age of 12, 
-
-												later going on to design and build BattleBots at the University of Illinois. His father used to race a 1983 Mazda RX-7, so cars and racing were in 
-
-												his blood from a young age.
-												</p>	
-										</div> 
-										<div id = "member_bottom">
-												<p id = "fake_buttons">. . . . . . . . . . . . </p>	
-										</div> 
-								</div>
-						</div>
+	<body>
+		<section class="top parallax">
+			<div class = "header">
+				<div class="logo"></div> 
+				<ul class="bar">
+					<li class = "nav" id = "contact"><a href="#" title="">Contact</a></li>
+					<li class = "nav"><a href="http://www.spacex.com/hyperloop" title="">Competition</a></li>
+					<li class = "nav drop" id = "sub"><a href="#" title="">Sub Teams</a>
+					<div class="dropdown">
+					<a class = "drop" href="aero.html">Aerodynamics</a>
+					<a class = "drop" href="chassis.html">Chassis</a>
+					<a class = "drop" href="electronics.html">Electronics</a>
+					<a class = "drop" href="power.html">Power</a>
+					<a class = "drop" href="manufacturing.html">Manufacturing</a>
+					</div>
+					</li>
+					<li class = "nav" id = "about"><a href="#" title="">About Us</a></li>
+					<li class = "nav"><a href="#" title="">Home</a></li>
+				</ul> 
+			</div> 
+			<div class = "jumbotron">
+				<h1>Why Hyperloop?</h1>	
+				<h2>Because Roads Aren't Good Enough</h2>	
+			</div> 
+		</section> 
 
 
-						<div id = "bottom_view" class="view">
-								<div id = "bottom_tint" class = "tint">
-								</div>
-						</div>
+		<section class = "divider-top"></section>
 
-				</div> 
-		</body>
+		<section class = "intro">
+				<p class="title">Who We Are</p>	
+				<p class= "para">
+				Illini Hyperloop is a group of students at the University of Illinois at Urbana-Champaign who are 
+				participating in the SpaceX Hyperloop Pod Competition. We are comprised of a Senior Design Team and 
+				a Registered Student Organization. The Senior Design Team is a group of seniors that have chosen the 
+				Hyperloop concept as their Senior Design Project. We have seniors from Aerospace Engineering, 
+				Mechanical Engineering, Engineering Mechanics, Computer Engineering, Electrical Engineering, and 
+				Computer Science working on the project. 
+				</p>	
+				<p class= "para paralast">
+				The Registered Student Organization (RSO) is a student-run 
+				club that was started over the summer in order to bring together all the interest at UIUC. It is an all-
+				inclusive club, open to the entire student body and not restricted to any discipline. The club seeks talent 
+				throughout the entire school to create the most well rounded team in this competition. Together we make 
+				a strong team, representative of the countless brilliant scholars at the University of Illinois.
+				</p>	
+		</section>
+
+		<section class = "divider-bottom"></section>
+
+		<section class="center">
+		</section>
+
+		<section class = "divider-top"></section>
+
+		<section class = "title" id = "subTop">
+				<p class="title">Subteams</p>	
+		</section> 
+		<section class = "subteam">
+			<div class = "subteams">
+				<div class = "subteam" id = "sb1">
+							<div id = "circle1" class="circular"></div>
+							<p class = "subteam">Aerodynamics</p>
+				</div>
+				<div class = "subteam" id = "sb2">
+							<div id = "circle2" class="circular"></div>
+							<p class = "subteam">Chassis</p>
+				</div>
+				<div class = "subteam" id = "sb3">
+							<div id = "circle3" class="circular"></div>
+							<p class = "subteam">Electronics</p>
+				</div>
+				<div class = "subteam" id = "sb4">
+							<div id = "circle4" class="circular"></div>
+							<p class = "subteam">Power</p>
+				</div>
+				<div class = "subteam" id = "sb5">
+							<div id = "circle5" class="circular"></div>
+							<p class = "subteam">Manufacturing</p>
+				</div>
+			</div>
+		</section> 
+		<div class = "vis">
+		<section class = "subPara" id = "sp1">
+				<p class="title subTitle">Aerodynamics</p>	
+				<p class= "para subPara">
+				The aerodynamics subsystem is responsible for minimizing drag, routing air through the pod, 
+				ensuring we don't create shock waves in the tube, calculating the drag due to our levitation system, and 
+				investigating ways to produce thrust. We are using computational fluid dynamics (CFD), computer aided 
+				design (CAD), thermodynamics, and incompressible and compressible flows to do all of this. Creative 
+				and critical thinking skills are essential to make smart assumptions and approximations in the design 
+				phase.
+				</p>
+		</section>
+		<section class = "subPara" id = "sp2">
+				<p class="title subTitle">Chassis</p>	
+				<p class= "para subPara">
+				The Chassis Subsystem is designing and will build the structural frame of the pod which is 
+				essentially that of a high speed train. They are also responsible for the braking systems which are inspired 
+				by components on an airplane. The chassis team will be doing FEA to ensure structural integrity of the 
+				design.
+				</p>
+		</section>
+		<section class = "subPara" id = "sp3">
+				<p class="title subTitle">Electronics</p>	
+				<p class= "para subPara">
+				The Electronics Subsystem is focusing on sensor networks, power distribution, cooling systems, 
+				and control logic. They are creating a graphical user interface, and ensuring subsystem concurrency. 
+				There will be a great deal of fabrication during the second semester.
+				</p>
+		</section>
+		<section class = "subPara" id = "sp4">
+				<p class="title subTitle">Power</p>	
+				<p class= "para subPara">
+				The Power team Is responsible for managing the power requirements and wiring of all on board components. 
+				The team will be responsible for obtaining and attaching the Arx Pax hover engines to the pod. 
+				The team will also be creating the batteries and cooling system that will be used in the pod. 
+				</p>
+		</section>
+		<section class = "subPara" id = "sp5">
+				<p class="title subTitle">Manufacturing</p>	
+				<p class= "para subPara">
+				The Manufacturing Subsystem is in charge of creating testing platforms as well as ensuring all 
+				designs can be fabricated. We are looking into different manufacturing methods to find the best way to 
+				build the pod. We will be learning various manufacturing techniques in order to be sufficiently prepared 
+				to build the pod second semester.
+				</p>
+		</section>
+		</div> 
+		<section class = "divider-bottom"></section>
+
+		<section class="bottom parallax" id = "contactTop">
+				<p class="white title">Contact Us</p>	
+				<form>
+					<input class="in" id = "name" type="text" placeholder="Name"><br>
+					<input class="in" id = "email" type="text" placeholder="Email"><br>
+					<input class="in" id = "subject" type="text" placeholder="Subject"><br>
+					<textarea rows="5" cols="50" id = "message" class="in" type="text" placeholder="Message"></textarea>
+					<br></br>
+					<input class="button" type="button" onclick="mySend()" value="Send"> 
+				</form>
+				<p class="white title formSuccess">Thanks for Contacting Us</p>	
+		</section>
+
+		<section class="footer">
+			<span>Illini Hyperloop 2016 - University of Illinois</span>
+		</section> 
+
+	</body> 
+
 </html>
-

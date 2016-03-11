@@ -1,0 +1,1 @@
+In physics, power is the rate of doing work. It is equivalent to an amount of energy consumed per unit time. In the SI system, the unit of power is the joule per second (J/s), known as the watt in honour of James Watt, the eighteenth-century developer of the steam engine. It is a scalar quantity.

@@ -1,0 +1,193 @@
+@media(min-width:1500px) {
+	.nav{
+		width: 140px; 
+		font-size: 20px;
+	}
+	.dropdown{
+		width: 140px;
+		font-size: 17px; 
+	}
+	p.para{
+		font-size: 18px;
+	}
+	section.parallax{
+		height: 800px;
+	}
+	section.center{
+		height: 700px;
+	}
+	section.bottom{
+		height: 550px; 
+	}
+}
+
+@media(max-width:1200px) {
+	div.circular {
+		width: 150px;
+		height: 150px;
+		border-radius: 75px;
+	}
+
+	section.subteam{
+		height: 350px; 	
+	}
+
+}
+
+@media(max-width:1000px) {
+	div.circular {
+		width: 120px;
+		height: 120px;
+		border-radius: 60px;
+	}
+	section.subteam{
+		height: 300px; 	
+	}
+	.in {
+		width: 60%; 
+	}
+	input.button {
+		margin-left: 60%;
+		width: 20%; 
+	}
+}
+
+
+@media(max-width:890px) {
+	.nav{
+		width: 95px; 
+		font-size: 14px;
+	}
+	.dropdown{
+		width: 105px;
+		font-size: 12px; 
+	}
+	section.center{
+		height: 350px;
+	}
+	div.circular {
+		width: 110px;
+		height: 110px;
+		border-radius: 55px;
+	}
+	section.subteam{
+		height: 300px; 	
+	}
+}
+
+
+@media(max-width:770px) {
+	.nav{
+		display: none; 
+	}
+	h1{
+		font-size: 60px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	p.title{
+		font-size: 32px;
+		margin-left: 15%;
+	}
+	p.para{
+		font-size: 14px;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	.jumbotron {
+		height: 170px; 	
+	}
+	section.top{
+		height: 600px;
+	}
+	section.center{
+		height: 250px;
+	}
+	.header{
+		height: 150px; 	
+	}
+	div.subteams{
+		width: 90%; 
+		height: 100%;
+		margin: 0 auto; 
+	}
+	section.subteam{
+		height: 900px; 	
+	}
+	div.subteam{
+		width: 100%; 
+		height: 20%;
+		display: block; 
+	}
+	div.vis{
+	display: none;
+	}
+	div.circular {
+		margin-top: 0%; 
+		margin-left: 50%; 
+		width: 150px;
+		height: 150px;
+		border-radius: 75px;
+	}
+	div.subteam:hover{
+		border-bottom: 0px solid #5656bb; 
+		margin-top: 0px ; 
+	}
+	p.subteam{
+		text-align: left;	
+		margin-top: -100px;
+		margin-left: 15%;
+	}
+}
+
+
+@media(max-width:500px) {
+	h1{
+		font-size: 44px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	p.title{
+		font-size: 25px;
+		margin-left: 12%;
+	}
+	p.para{
+		font-size: 13px;
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+	p.paralast{
+		padding-bottom: 30px;
+	}
+	.jumbotron {
+		height: 100px; 	
+	}
+	section.top{
+		height: 450px;
+	}
+	section.center{
+		height: 160px;
+	}
+	section.bottom{
+		height: 475px;
+	}
+	.header{
+		height: 150px; 	
+	}
+	.in {
+		width: 70%; 
+	}
+	input.button {
+		margin-left: 55%;
+		width: 30%; 
+	}
+	p.subteam{
+		text-align: left;	
+		margin-top: -100px;
+		margin-left: 5%;
+	}
+}
+
+
