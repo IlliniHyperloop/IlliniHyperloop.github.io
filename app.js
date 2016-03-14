@@ -17,7 +17,7 @@ function mySend() {
 				'from_email': 'btmoore95@gmail.com', 
 				'to': [
 				{
-					'email': 'btmoore4@illinois.edu', 
+					'email': 'illinihyperloop@gmail.com', 
 					'name': '', 
 					'type': 'to'
 				}
